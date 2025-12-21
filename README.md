@@ -324,3 +324,56 @@ Out [15]:
 ---
 
 ## Visualizations & Insights
+### 1. Total Customers by Segmentation
+<img width="950" height="505" alt="image" src="https://github.com/user-attachments/assets/48ff1b0e-6eff-4ad8-8760-f5270bcf40a0" />
+
+**Key Insights:** There is a strong core of Champions (19.2%) and a large block of Hibernating (15.9%), plus meaningful shares of Loyal, Lost, At Risk, Potential Loyalist, etc. The revenue distribution is highly skewed: Champions drive ~63% of total monetary while many segments contribute little individually.
+
+### 2. Recency by Segmentation
+<img width="984" height="545" alt="image" src="https://github.com/user-attachments/assets/01035fb8-ec12-402b-aa98-a8d46fffb4d8" />
+
+**Key Insights:** Several segments show poor recency (Lost ~295 days), At Risk and Hibernating have long gaps, while Champions and some Potential Loyalists show recent activity. Recency separates “ready-to-buy” customers from those needing reactivation.
+
+### 3. Frequency by Segmentation
+<img width="979" height="545" alt="image" src="https://github.com/user-attachments/assets/655b3ddd-5666-40fd-871e-1e1041177566" />
+
+**Key Insights:** Champions have very high frequency (12.1), Loyal are moderate, most other segments show low frequency — indicating either low repeat purchase behavior or one-off buyers in many segments.
+
+### 4. Monetary by Segmentation
+<img width="981" height="588" alt="image" src="https://github.com/user-attachments/assets/a13ff728-68c9-4ad6-aa20-263c31113d01" />
+
+**Key Insights:** Champions dominate monetary share. Some segments with moderate frequency (Loyal, Potential Loyalist) have decent monetary share potential. Hibernating and Lost are low monetary but can be cost-effective to reactivate.
+
+### Two segments with the highest proportion of customers are Champions and Hibernating Customers.
+### 5. Champions - Total Orders & Total Sales Over Time
+<img width="1186" height="586" alt="image" src="https://github.com/user-attachments/assets/c6df8413-687e-4bfa-8fea-96318f263414" />
+
+**Key Insights:** Champions produce the bulk of orders and sales but show high month-to-month volatility (huge spikes in Nov, crash in Dec). This suggests Champions respond strongly to seasonal events / major campaigns. Their behavior is high-value but campaign-driven.
+
+### 6. Hibernating Customers - Total Orders & Total Sales Over Time
+<img width="1185" height="588" alt="image" src="https://github.com/user-attachments/assets/2eff7fa7-c22a-469a-b617-33d318d54a27" />
+
+**Key Insights:** Hibernating customers show mostly low activity but spike when strong incentives or campaigns run (e.g., strong activation in Sep). They are responsive but require a clear trigger to purchase.
+
+---
+
+## Recommendations
+| Customer Segment | Goal | Tactics | Channels | KPIs |
+|------------------|------|---------|----------|------|
+| **Champions (protect & stabilize)** | Reduce revenue volatility and increase lifetime value further | - Tier-based VIP program (early access, exclusive bundles, personalized concierge)<br>- Predictive replenishment / subscription offers for frequently bought SKUs<br>- Personalization: curated collections via email and on-site homepage<br>- Soft win-back: VIP-only flash events to smooth purchase spikes | Email (highly personalized), push, paid social lookalike campaigns | - Share of revenue from Champions (month-to-month stability)<br>- Repeat rate within 30 days<br>- Churn rate among Champions |
+| **Hibernating Customers (cheap reactivation)** | Move them back to Active with minimal CAC | - Micro-conversion campaigns (free shipping + small discount tied to new catalog updates)<br>- 3-touch win-back email/SMS sequence within 14 days with increasing incentives<br>- Time-limited bundles based on previously purchased categories | Email, SMS, owned push, remarketing (dynamic ads) | - Reactivation rate (purchase within 30 days)<br>- CAAV (cost per activated customer)<br>- Post-reactivation AOV |
+| **At Risk & About-to-Sleep (prevent churn)** | Stop drift before they leave | - Behavioral triggers based on historical purchase cadence<br>- Exit-intent surveys + friction reduction (returns, price match)<br>- Loyalty point multipliers for next purchase | Email, onsite banners, cart/UX nudges | - Churn rate reduction<br>- Triggered campaign conversion rate<br>- Survey NPS |
+| **Potential Loyalists & Promising (scale mid-LTV)** | Convert to Loyal / Champion | - Post-first-purchase onboarding flows (education, usage tips, cross-sell)<br>- Second-purchase incentive (e.g., 15% off)<br>- Social proof and bundles aligned with first-buy category | Email automation, in-app messages, retargeting | - Second-purchase rate<br>- Time between 1st and 2nd purchase<br>- Purchase frequency uplift |
+| **Lost Customers (low priority reactivation)** | Low-cost experiments only | - Quarterly re-discovery campaigns highlighting major changes or new categories<br>- Shift budget to lookalike audiences instead of heavy reactivation spend | Email, paid media (lookalikes) | - Activation per campaign spent<br>- Cost per reactivated customer |
+
+### Which RFM metric should Marketing & Sales prioritize?
+
+- Marketing — Prioritize Recency (R)
+    
+    Reason: Recency is the strongest near-term predictor of purchase behavior (Champions & Potential Loyalists show high recency; Hibernating respond when re-engaged). Recency-based targeting yields the best conversion efficiency and lowest CAC on reactivation. Use R to drive campaign timing and personalization.
+    
+- Sales — Prioritize Monetary (M) (with Recency as a secondary filter)
+    
+    Reason: Sales’ remit is revenue maximization and higher-ticket conversion. Targeting customers with high historical monetary value (and acceptable recency) yields better ROI for one-on-one or B2B-style selling approaches.
+    
+- Frequency (F) is important as a supporting metric: use it to identify repeat-buy patterns (ideal for subscription offers) and to segment mid-LTV cohorts. But as the single highest-priority metric for operational campaign targeting, R > M > F for Marketing; M > R > F for Sales.
