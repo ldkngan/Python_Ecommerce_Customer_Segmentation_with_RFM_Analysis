@@ -89,7 +89,7 @@ import seaborn as sns
 ```
 In [2]:
 ```python
-# Import tables
+# Load data
 !pip install gdown
 !gdown 14hq8vPUyufScsSSgl7aBzkbw8cSOcphl
 df_retail = pd.read_excel('ecommerce retail.xlsx', sheet_name="ecommerce retail")
