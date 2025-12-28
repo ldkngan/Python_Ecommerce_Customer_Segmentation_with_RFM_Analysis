@@ -90,13 +90,10 @@ import seaborn as sns
 In [2]:
 ```python
 # Import tables
-from google.colab import drive
-drive.mount('/content/drive')
-
-path = '/content/drive/MyDrive/Python_Final Project/'
-
-df_retail = pd.read_excel(path + 'ecommerce retail.xlsx', sheet_name="ecommerce retail")
-df_segment = pd.read_excel(path + 'ecommerce retail.xlsx', sheet_name="Segmentation")
+!pip install gdown
+!gdown 14hq8vPUyufScsSSgl7aBzkbw8cSOcphl
+df_retail = pd.read_excel('ecommerce retail.xlsx', sheet_name="ecommerce retail")
+df_segment = pd.read_excel('ecommerce retail.xlsx', sheet_name="Segmentation")
 
 df_retail.head()
 ```
