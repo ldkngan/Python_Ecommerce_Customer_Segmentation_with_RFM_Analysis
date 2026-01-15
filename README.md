@@ -1,5 +1,10 @@
 # Python | Customer Segmentation RFM Analysis
+
+![customer segment](https://github.com/user-attachments/assets/b113cb2d-67d3-4edd-9b4a-231888640049)
+
 This project focuses on customer segmentation using **RFM analysis** based on e-commerce transactional data. The goal is to transform **raw sales data** into **actionable customer insights** that support marketing, retention, and revenue optimization decisions.
+- **Author**: Le Dang Kim Ngan
+- **Tool Used**: Python
 
 ---
 
