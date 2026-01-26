@@ -8,7 +8,7 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 1. Overview
 2. Exploratory Data Analysis (EDA)
 3. Data Wrangling
@@ -18,13 +18,13 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 
 ---
 
-## Overview
-### Main Objectives
+## ✨ Overview
+### 🎯 Main Objectives
 - Segment customers based on **Recency, Frequency, and Monetary value**
 - Identify **high-value**, **loyal**, **at-risk**, and **inactive** customer groups
 - Understand how customer behavior changes **over time**
 - Support business decisions related to **customer retention, re-engagement, and revenue growth**
-### Why RFM Analysis?
+### 💻 Why RFM Analysis?
 - RFM is used because it answers three fundamental business questions using **actual customer behavior**, not assumptions:
     - **Recency** – How recently did the customer purchase?
     - **Frequency** – How often do they purchase?
@@ -35,17 +35,17 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
     - It directly links customer behavior to **business value**.
     - It allows easy mapping to **business-friendly segments** (e.g. Champions, Loyal, At Risk, Hibernating).
     - Unlike black-box models, RFM provides **transparent logic**, which is critical for business adoption.
-### Business Questions
+### ❓ Business Questions
 - Who are the **most valuable customers** contributing the highest revenue?
 - Which customers are **active but low-spending**, and which are **high-spending but infrequent**?
 - Which customers are **at risk of churn** due to declining recency or frequency?
 - How does **customer value change over time**?
-### Tools & Technologies
+### ⚒️ Tools & Technologies
 - **Python** (core language for the entire project)
 - pandas, numpy – data manipulation & aggregation
 - matplotlib / seaborn – data visualization
 - Jupyter / Google Colab – analysis environment
-### Dataset
+### 📂 Dataset
 <details>
   <summary> Table 1: E-Commerce Retail - contains transaction-level data (Click to see detail)</summary>
 
@@ -83,7 +83,7 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## ⚙️ Exploratory Data Analysis (EDA)
 In [1]:
 ```python
 # Import libraries
@@ -166,7 +166,7 @@ np.int64(5268)
 
 ---
 
-## Data Wrangling
+## 📟 Data Wrangling
 In [7]:
 ```python
 # Adjust data types and remove missing values
@@ -253,7 +253,7 @@ After wrangling, the dataset has 392,692 rows with no missing values, no duplica
 
 ---
 
-## RFM Score  & Segment
+## 🧮 RFM Score  & Segment
 In [11]:
 ```python
 # Set current date = 2011-12-31
@@ -325,41 +325,41 @@ Out [15]:
 
 ---
 
-## Visualizations & Key Insights
+## 📊 Visualizations & Key Insights
 ### 1. Total Customers by Segmentation
 <img width="950" height="505" alt="image" src="https://github.com/user-attachments/assets/48ff1b0e-6eff-4ad8-8760-f5270bcf40a0" />
 
-**Key Insights:** There is a strong core of Champions (19.2%) and a large block of Hibernating (15.9%), plus meaningful shares of Loyal, Lost, At Risk, Potential Loyalist, etc. The revenue distribution is highly skewed: Champions drive ~63% of total monetary while many segments contribute little individually.
+🔎 **Key Insights:** There is a strong core of Champions (19.2%) and a large block of Hibernating (15.9%), plus meaningful shares of Loyal, Lost, At Risk, Potential Loyalist, etc. The revenue distribution is highly skewed: Champions drive ~63% of total monetary while many segments contribute little individually.
 
 ### 2. Recency by Segmentation
 <img width="984" height="545" alt="image" src="https://github.com/user-attachments/assets/01035fb8-ec12-402b-aa98-a8d46fffb4d8" />
 
-**Key Insights:** Several segments show poor recency (Lost ~295 days), At Risk and Hibernating have long gaps, while Champions and some Potential Loyalists show recent activity. Recency separates “ready-to-buy” customers from those needing reactivation.
+🔎 **Key Insights:** Several segments show poor recency (Lost ~295 days), At Risk and Hibernating have long gaps, while Champions and some Potential Loyalists show recent activity. Recency separates “ready-to-buy” customers from those needing reactivation.
 
 ### 3. Frequency by Segmentation
 <img width="979" height="545" alt="image" src="https://github.com/user-attachments/assets/655b3ddd-5666-40fd-871e-1e1041177566" />
 
-**Key Insights:** Champions have very high frequency (12.1), Loyal are moderate, most other segments show low frequency — indicating either low repeat purchase behavior or one-off buyers in many segments.
+🔎 **Key Insights:** Champions have very high frequency (12.1), Loyal are moderate, most other segments show low frequency — indicating either low repeat purchase behavior or one-off buyers in many segments.
 
 ### 4. Monetary by Segmentation
 <img width="981" height="588" alt="image" src="https://github.com/user-attachments/assets/a13ff728-68c9-4ad6-aa20-263c31113d01" />
 
-**Key Insights:** Champions dominate monetary share. Some segments with moderate frequency (Loyal, Potential Loyalist) have decent monetary share potential. Hibernating and Lost are low monetary but can be cost-effective to reactivate.
+🔎 **Key Insights:** Champions dominate monetary share. Some segments with moderate frequency (Loyal, Potential Loyalist) have decent monetary share potential. Hibernating and Lost are low monetary but can be cost-effective to reactivate.
 
 ### Two segments with the highest proportion of customers are Champions and Hibernating Customers.
 ### 5. Champions - Total Orders & Total Sales Over Time
 <img width="1186" height="586" alt="image" src="https://github.com/user-attachments/assets/c6df8413-687e-4bfa-8fea-96318f263414" />
 
-**Key Insights:** Champions produce the bulk of orders and sales but show high month-to-month volatility (huge spikes in Nov, crash in Dec). This suggests Champions respond strongly to seasonal events / major campaigns. Their behavior is high-value but campaign-driven.
+🔎 **Key Insights:** Champions produce the bulk of orders and sales but show high month-to-month volatility (huge spikes in Nov, crash in Dec). This suggests Champions respond strongly to seasonal events / major campaigns. Their behavior is high-value but campaign-driven.
 
 ### 6. Hibernating Customers - Total Orders & Total Sales Over Time
 <img width="1185" height="588" alt="image" src="https://github.com/user-attachments/assets/2eff7fa7-c22a-469a-b617-33d318d54a27" />
 
-**Key Insights:** Hibernating customers show mostly low activity but spike when strong incentives or campaigns run (e.g., strong activation in Sep). They are responsive but require a clear trigger to purchase.
+🔎 **Key Insights:** Hibernating customers show mostly low activity but spike when strong incentives or campaigns run (e.g., strong activation in Sep). They are responsive but require a clear trigger to purchase.
 
 ---
 
-## Recommendations
+## 💡 Recommendations
 | Customer Segment | Goal | Tactics | Channels | KPIs |
 |------------------|------|---------|----------|------|
 | **Champions (protect & stabilize)** | Reduce revenue volatility and increase lifetime value further | - Tier-based VIP program (early access, exclusive bundles, personalized concierge)<br>- Predictive replenishment / subscription offers for frequently bought SKUs<br>- Personalization: curated collections via email and on-site homepage<br>- Soft win-back: VIP-only flash events to smooth purchase spikes | Email (highly personalized), push, paid social lookalike campaigns | - Share of revenue from Champions (month-to-month stability)<br>- Repeat rate within 30 days<br>- Churn rate among Champions |
@@ -368,7 +368,7 @@ Out [15]:
 | **Potential Loyalists & Promising (scale mid-LTV)** | Convert to Loyal / Champion | - Post-first-purchase onboarding flows (education, usage tips, cross-sell)<br>- Second-purchase incentive (e.g., 15% off)<br>- Social proof and bundles aligned with first-buy category | Email automation, in-app messages, retargeting | - Second-purchase rate<br>- Time between 1st and 2nd purchase<br>- Purchase frequency uplift |
 | **Lost Customers (low priority reactivation)** | Low-cost experiments only | - Quarterly re-discovery campaigns highlighting major changes or new categories<br>- Shift budget to lookalike audiences instead of heavy reactivation spend | Email, paid media (lookalikes) | - Activation per campaign spent<br>- Cost per reactivated customer |
 
-### Which RFM metric should Marketing & Sales prioritize?
+### 📢 Which RFM metric should Marketing & Sales prioritize?
 
 - Marketing — Prioritize Recency (R)
     
