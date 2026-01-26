@@ -359,7 +359,7 @@ Out [15]:
 
 ---
 
-## 💡 Recommendations
+## 🚀 Recommendations
 | Customer Segment | Goal | Tactics | Channels | KPIs |
 |------------------|------|---------|----------|------|
 | **Champions (protect & stabilize)** | Reduce revenue volatility and increase lifetime value further | - Tier-based VIP program (early access, exclusive bundles, personalized concierge)<br>- Predictive replenishment / subscription offers for frequently bought SKUs<br>- Personalization: curated collections via email and on-site homepage<br>- Soft win-back: VIP-only flash events to smooth purchase spikes | Email (highly personalized), push, paid social lookalike campaigns | - Share of revenue from Champions (month-to-month stability)<br>- Repeat rate within 30 days<br>- Churn rate among Champions |
