@@ -84,6 +84,8 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 ---
 
 ## ⚙️ Exploratory Data Analysis (EDA)
+This section provides an initial assessment of the retail dataset to understand its structure, data quality, and potential issues that may impact downstream analysis.
+
 In [1]:
 ```python
 # Import libraries
@@ -167,6 +169,8 @@ np.int64(5268)
 ---
 
 ## 📟 Data Wrangling
+This section focuses on **cleaning and transforming** the dataset to ensure **data consistency and reliability** for further analysis. Key steps include converting columns to appropriate data types, removing records with missing CustomerID values, filtering out invalid entries in the Quantity and Unit Price columns, and eliminating duplicated records.
+
 In [7]:
 ```python
 # Adjust data types and remove missing values
@@ -254,6 +258,8 @@ After wrangling, the dataset has 392,692 rows with no missing values, no duplica
 ---
 
 ## 🧮 RFM Score  & Segment
+In this section, RFM analysis is applied to evaluate customer value and behavior based on **Recency, Frequency, and Monetary** metrics. Each customer is assigned R, F, and M scores using a **1–5 scale**, where the scoring is derived from **quintile-based distribution** to ensure a balanced and statistically sound segmentation. Based on the combination of these RFM scores and a predefined classification table, customers are then grouped into meaningful segments, enabling clearer insights into customer behavior and supporting targeted business strategies.
+
 In [11]:
 ```python
 # Set current date = 2011-12-31
