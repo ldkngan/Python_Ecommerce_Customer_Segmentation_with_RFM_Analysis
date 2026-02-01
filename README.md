@@ -19,11 +19,15 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 ---
 
 ## ✨ Overview
+### 🏢 Business Context
+The business operates in a high-volume **e-commerce** environment where revenue growth increasingly depends on customer retention and lifetime value, not just acquisition. Customers exhibit very different purchasing behaviors, and without clear segmentation, marketing and retention efforts become inefficient and generic. This project uses RFM analysis to convert transaction data into actionable customer segments, enabling the business to identify high-value customers, detect churn risk early, optimize marketing spend, and support data-driven decisions for retention, re-engagement, and revenue growth.
+
 ### 🎯 Main Objectives
 - Segment customers based on **Recency, Frequency, and Monetary value**
 - Identify **high-value**, **loyal**, **at-risk**, and **inactive** customer groups
 - Understand how customer behavior changes **over time**
 - Support business decisions related to **customer retention, re-engagement, and revenue growth**
+
 ### 💻 Why RFM Analysis?
 - RFM is used because it answers three fundamental business questions using **actual customer behavior**, not assumptions:
     - **Recency** – How recently did the customer purchase?
@@ -35,16 +39,19 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
     - It directly links customer behavior to **business value**.
     - It allows easy mapping to **business-friendly segments** (e.g. Champions, Loyal, At Risk, Hibernating).
     - Unlike black-box models, RFM provides **transparent logic**, which is critical for business adoption.
+
 ### ❓ Business Questions
 - Who are the **most valuable customers** contributing the highest revenue?
 - Which customers are **active but low-spending**, and which are **high-spending but infrequent**?
 - Which customers are **at risk of churn** due to declining recency or frequency?
 - How does **customer value change over time**?
+
 ### ⚒️ Tools & Technologies
 - **Python** (core language for the entire project)
 - pandas, numpy – data manipulation & aggregation
 - matplotlib / seaborn – data visualization
 - Jupyter / Google Colab – analysis environment
+
 ### 📂 Dataset
 <details>
   <summary> Table 1: E-Commerce Retail - contains transaction-level data (Click to see detail)</summary>
