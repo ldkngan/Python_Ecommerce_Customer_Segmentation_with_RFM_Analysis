@@ -20,7 +20,7 @@ This project focuses on customer segmentation using **RFM analysis** based on e-
 
 ## ✨ Overview
 ### 🏢 Business Context
-The business operates in a high-volume **e-commerce** environment where revenue growth increasingly depends on customer retention and lifetime value, not just acquisition. Customers exhibit very different purchasing behaviors, and without clear segmentation, marketing and retention efforts become inefficient and generic. This project uses RFM analysis to convert transaction data into actionable customer segments, enabling the business to identify high-value customers, detect churn risk early, optimize marketing spend, and support data-driven decisions for retention, re-engagement, and revenue growth.
+The business operates in a high-volume **e-commerce** environment where revenue growth increasingly depends on customer retention and lifetime value, not just acquisition. Customers exhibit very different purchasing behaviors, and without clear segmentation, marketing and retention efforts become inefficient and generic. This project uses **RFM analysis** to convert transaction data into actionable customer segments, enabling the business to identify high-value customers, detect churn risk early, optimize marketing spend, and support data-driven decisions for retention, re-engagement, and revenue growth.
 
 ### 🎯 Main Objectives
 - Segment customers based on **Recency, Frequency, and Monetary value**
