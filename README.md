@@ -48,9 +48,9 @@ The business operates in a high-volume **e-commerce** environment where revenue 
 
 ### ⚒️ Tools & Technologies
 - **Python** (core language for the entire project)
-- pandas, numpy – data manipulation & aggregation
-- matplotlib / seaborn – data visualization
-- Jupyter / Google Colab – analysis environment
+- **Pandas, Numpy** – data manipulation & aggregation
+- **Matplotlib, Seaborn** – data visualization
+- **Jupyter / Google Colab** – analysis environment
 
 ### 📂 Dataset
 <details>
