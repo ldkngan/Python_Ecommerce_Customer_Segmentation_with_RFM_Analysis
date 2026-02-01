@@ -1,4 +1,4 @@
-# Python | E-Commerce Customer Segmentation with RFM Analysis
+# Analyze E-Commerce Customer Segmentation Using RFM Analysis in Python
 
 ![customer segment](https://github.com/user-attachments/assets/b113cb2d-67d3-4edd-9b4a-231888640049)
 
